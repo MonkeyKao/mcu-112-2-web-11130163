@@ -1,6 +1,6 @@
 import { Product } from "./product";
 
-const product = [
+const products = [
   new Product(
     1,
     "圖像 Angular 開發入門 第二版",
@@ -19,11 +19,7 @@ const product = [
   ),
 ];
 
-setProductDisplay(product[1], false);
+products[1].setDisplay(false);
 
-console.log(product);
-console.table(product);
-
-function setProductDisplay(product: Product, isShow: boolean): void {
-  product.isShow = isShow;
-}
+console.log(products);
+console.table(products);
