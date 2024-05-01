@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { ProductCardComponent } from './product-card/product-card.component';
 
 @Component({
@@ -15,4 +14,8 @@ export class AppComponent {
   company = '博碩文化';
   isShow = true;
   imgUrl = 'https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img';
+
+  onIsShowChange(isShow: boolean): void {
+    this.isShow = isShow;
+  }
 }
