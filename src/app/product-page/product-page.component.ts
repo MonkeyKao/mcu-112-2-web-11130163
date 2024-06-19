@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import { Subject, startWith, switchMap } from 'rxjs';
 import { Product } from '../model/product';
 import { ProductCardListComponent } from '../product-card-list/product-card-list.component';
-import { ProductService } from './../service/product.service';
+import { ProductService } from '../services/product.service';
 
 @Component({
   selector: 'app-product-page',

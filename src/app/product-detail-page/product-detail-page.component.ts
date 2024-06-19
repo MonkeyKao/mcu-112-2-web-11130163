@@ -2,7 +2,7 @@ import { CurrencyPipe } from '@angular/common';
 import { Component, Input, inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { Product } from '../model/product';
-import { ProductService } from '../service/product.service';
+import { ProductService } from '../services/product.service';
 
 @Component({
   selector: 'app-product-detail-page',
