@@ -3,7 +3,7 @@
   <app-product-card
     [id]="product.id"
     [productName]="product.name"
-    [authors]="product.authors"
+    [authors]="product.authors.join('、 ')"
     [company]="product.company"
     [isShow]="product.isShow"
     [imgUrl]="product.imgUrl"
