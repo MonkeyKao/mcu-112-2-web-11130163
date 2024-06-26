@@ -99,16 +99,17 @@
       "id": 7
     },
     {
+      "id": 8,
       "name": "a",
       "authors": [
-        "dfg"
+        "dfg",
+        "oooo"
       ],
       "company": "company",
       "isShow": false,
       "imgUrl": "https://api.fnkr.net/testimg/200x200/DDDDDD/999999/?text=img",
-      "createDate": "2024-06-26T08:46:10.633Z",
-      "price": "585",
-      "id": 8
+      "createDate": "2024-06-26T09:09:53.400Z",
+      "price": "585"
     }
   ]
 }
