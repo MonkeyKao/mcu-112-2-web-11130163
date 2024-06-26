@@ -34,7 +34,7 @@
 
 .error-message {
   color: red;
-  margin-left: 150px;
+  margin-left: 225px;
 }
 
 .form-action {
@@ -54,4 +54,10 @@
 button.save {
   background-color: #007bff;
   color: white;
+}
+
+button.save:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
 }
